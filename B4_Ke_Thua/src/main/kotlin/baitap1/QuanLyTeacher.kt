@@ -1,5 +1,8 @@
 package baitap1
 
+enum class Teck {
+    N, M
+}
 
 val listSubject = listOf<Subject>(
     Subject(1, "Toan"),
@@ -27,6 +30,9 @@ fun main() {
     //sapXepTheoTen()
 
     xepKhong()
+
+
+    listTeacher.iterator()
 }
 
 
